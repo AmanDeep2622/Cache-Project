@@ -1,14 +1,16 @@
 
 
-Shortforms
-```
-- `-s <s>`: Number of set index bits (*S = 2^s* is the number of sets)
+Information on How to Run the Program
 
-- `-E <E>`: Associativity (number of lines per set)
+Run Csim.c file, As soon as you will run it a new exe function.
+ 
+Type the following Commands 
 
-- `-b <b>`: Number of block bits (*B = 2^b* is the block size)
 
-- `-t <tracefile>`: Name of the trace file.
+'-s' = Number of set bits
+'-E' = Ways 
+'-b'= number of Block (b= log(Block Size))
+'-t'= Trace File 
 
 
 b=log Blocksize
@@ -20,7 +22,7 @@ Blocksize 32kb
 b=5
 s=6
 e=8
-```
+
 Case 2
 Blocksize 32kb
 b=5
