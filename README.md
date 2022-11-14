@@ -6,7 +6,7 @@ Run Csim.c file, As soon as you will run it a new exe function.
  
 
 
-![Graph]([http://url/to/img.png](https://raw.githubusercontent.com/AmanDeep2622/Cache-Project/main/images/Graph%20Plot.png?token=GHSAT0AAAAAAB24S7CUAMWDO5MBHHFTPSNQY3SSQ4Q))
+
 
 Short Forms= 
 
