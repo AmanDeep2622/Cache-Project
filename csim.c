@@ -1,7 +1,6 @@
 #include <stdbool.h>
 #include <unistd.h>
 #include <getopt.h>
-
 #include <stdio.h>
 #include <time.h>
 
@@ -18,7 +17,7 @@ static int S, E;
 
 
 static int s, b;  // s index bits, b bits block offset 
-static bool bflag = 0; 
+static bool BoolFlag = 0; 
 
 
 static int hits, misses;  //Hit ,Miss countes
@@ -61,7 +60,7 @@ void CacheAccess(cache_line *val, long long address, int *time) {
         if (val[setIndex + i].valid && val[setIndex + i].tag == tag) {
             val[setIndex + i].accessTime = loadTime;
             hits++;
-            if (bflag);
+            if (BoolFlag);
             return;
         } else if (!val[setIndex + i].valid) {
             emptySlot = i;
@@ -77,14 +76,14 @@ void CacheAccess(cache_line *val, long long address, int *time) {
         val[setIndex + emptySlot].tag = tag;
         val[setIndex + emptySlot].accessTime = loadTime;
         misses++;
-        if (bflag);
+        if (BoolFlag);
         return;
     } else {
         // Miss 
         val[setIndex + lruPos].tag = tag;
         val[setIndex + lruPos].accessTime = loadTime;
         misses++;
-        if (bflag)
+        if (BoolFlag)
         return;
     }
 }
@@ -99,7 +98,7 @@ int main(int argument, char *arg[]) {
     while ((opt = getopt(argument, arg, "hvs:E:b:t:")) != -1) {             // Getting input then opening file for more info check Readme file 
         switch (opt) {
             case 'v':
-                bflag = 1;
+                BoolFlag = 1;
                 break;
             case 's':
                 s = atoi(optarg);
@@ -123,15 +122,15 @@ int main(int argument, char *arg[]) {
     hits = misses = 0;
     cache_line *val = initCache();
 
-    FILE *filePtr;
-    filePtr = fopen(traceFile, "r");                   // Opening Tracefile
+    FILE *FilePointer;
+    FilePointer = fopen(traceFile, "r");                   // Opening Tracefile
 
     char identifier;
     long long address;
     int size, time;
     time = 0;
 
-    while (fscanf(filePtr, "%llx", &address) > 0) {         //Differenting between Read and Write by Splitting the string 
+    while (fscanf(FilePointer, "%llx", &address) > 0) {         //Differenting between Read and Write by Splitting the string 
 
         if (identifier == 'I') continue;
          CacheAccess(val, address, &time);
@@ -140,7 +139,7 @@ int main(int argument, char *arg[]) {
     }
 
     free(val);
-    fclose(filePtr);
+    fclose(FilePointer);
 
     printSummary(hits, misses);                        // Giving Output 
     return 0;
