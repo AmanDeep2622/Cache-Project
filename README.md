@@ -1,4 +1,7 @@
-This Project Is made By Amandeep Singh, Manisha, Varre Tejaswini, Bandi Pavan Karthik 
+CSN_221 Memory Project in c#
+
+This Project is made By Amandeep Singh, Manisha, Varre Tejaswini, Bandi Pavan Karthik 
+
 
 
 ![Graph ](https://user-images.githubusercontent.com/95562400/201736708-b7b937c1-e6f9-4956-b560-ccf071b44be1.png)
