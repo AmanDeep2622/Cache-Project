@@ -1,4 +1,4 @@
-
+``
 
 Information on How to Run the Program
 
@@ -12,7 +12,7 @@ Type the following Commands
 '-b'= number of Block (b= log(Block Size))
 '-t'= Trace File 
 
-
+``
 b=log Blocksize
 s=log setsize
 ways 
@@ -34,7 +34,7 @@ Blocksize 16kb
 b=4
 s=6
 e=16
-
+``
 Commands on How to Run 
 
 LU Decompostion:-
@@ -63,3 +63,4 @@ Matrix Multiply:-
 
 ./csim -v -s 6 -E 16 -b 4 -t traces/mat.trace   hits:9035 misses:40
 
+``
