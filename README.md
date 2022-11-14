@@ -1,10 +1,12 @@
 ``
 
-Information on How to Run the Program
+##Information on How to Run the Program
 
 Run Csim.c file, As soon as you will run it a new exe function.
  
 
+
+![alt text](http://url/to/img.png)
 
 Short Forms= 
 
