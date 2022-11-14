@@ -1,4 +1,8 @@
-``
+This Project Is made By Amandeep Singh, Manisha, Tejaswani, Pavan Kartik 
+
+
+![Graph Plot](https://user-images.githubusercontent.com/95562400/201736110-874a67d7-5356-42ff-80b4-26a1ddacfea5.png)
+
 
 ##Information on How to Run the Program
 
