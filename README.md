@@ -4,8 +4,9 @@ Information on How to Run the Program
 
 Run Csim.c file, As soon as you will run it a new exe function.
  
-Type the following Commands 
 
+
+Short Forms= 
 
 '-s' = Number of set bits
 
