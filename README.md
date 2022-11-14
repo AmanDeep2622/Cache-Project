@@ -8,8 +8,11 @@ Type the following Commands
 
 
 '-s' = Number of set bits
-'-E' = Ways 
+
+'-E' = Ways
+ 
 '-b'= number of Block (b= log(Block Size))
+
 '-t'= Trace File 
 
 ``
