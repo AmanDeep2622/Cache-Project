@@ -7,7 +7,7 @@ This Project is made By Amandeep Singh.
 ![Graph ](https://user-images.githubusercontent.com/95562400/201736708-b7b937c1-e6f9-4956-b560-ccf071b44be1.png)
 
 
-##Information on How to Run the Program
+## Information on How to Run the Program
 
 Run Csim.c file, As soon as you will run it a new exe function.
  
@@ -15,7 +15,7 @@ Run Csim.c file, As soon as you will run it a new exe function.
 
 
 
-Short Forms= 
+#### Short Forms= 
 
 '-s' = Number of set bits
 
