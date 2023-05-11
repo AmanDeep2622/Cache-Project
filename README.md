@@ -1,6 +1,6 @@
 CSN_221 Memory Project in c#
 
-This Project is made By Amandeep Singh, Manisha, Varre Tejaswini, Bandi Pavan Karthik 
+This Project is made By Amandeep Singh.
 
 
 
